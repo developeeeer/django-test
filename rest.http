@@ -3,7 +3,14 @@ GET http://localhost:8000/todo/
 ###
 
 POST http://localhost:8000/todo/
+content-type: application/json
+
+{
+    "name": "todo-sample",
+    "detail": "detail-sample"
+}
 
 ###
 
 PUT http://localhost:8000/todo/
+
