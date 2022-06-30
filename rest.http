@@ -1,0 +1,9 @@
+GET http://localhost:8000/todo/
+
+###
+
+POST http://localhost:8000/todo/
+
+###
+
+PUT http://localhost:8000/todo/
