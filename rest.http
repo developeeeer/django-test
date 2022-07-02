@@ -6,11 +6,24 @@ POST http://localhost:8000/todo/
 content-type: application/json
 
 {
-    "name": "todo-sample",
-    "detail": "detail-sample"
+    "name": "name is nothing",
+    "detail": "test"
 }
 
 ###
 
-PUT http://localhost:8000/todo/
+GET http://localhost:8000/todo/20/
 
+###
+
+PUT http://localhost:8000/todo/111/
+content-type: application/json
+
+{
+    "name": "test",
+    "detail": "fasd"
+}
+
+###
+
+DELETE http://localhost:8000/todo/31/
